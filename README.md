@@ -1,9 +1,6 @@
 # 🧠 Mental Health Sentiment Classification Using Transformers
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 
 This project presents a comparative analysis of five pre-trained transformer models for classifying mental health conditions from patient statements using Natural Language Processing (NLP). The study fine-tunes and evaluates BERT, RoBERTa, DistilBERT, ClinicalBERT, and BioBERT on a large mental health sentiment dataset containing 53,043 labeled statements and validates the best model on real clinical patient conversations from MentalChat16K.
 
@@ -91,13 +88,6 @@ pip install -r requirements.txt
 
 `Python 3.12` `PyTorch` `HuggingFace Transformers` `Scikit-learn` `Google Colab T4 GPU`
 
----
-
-## ⚠️ Limitations
-
-- Data sourced from social media — not formal clinical conversations
-- Not validated by clinical professionals
-- Must **NOT** be used for real clinical diagnosis
 
 ---
 
